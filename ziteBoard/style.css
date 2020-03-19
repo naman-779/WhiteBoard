@@ -10,7 +10,7 @@
 .toolBar{
     display: flex;
     justify-content: center;
-    background-color: brown;
+    background-color: rgb(234, 240, 234);
 }
 
 .tool-options{
