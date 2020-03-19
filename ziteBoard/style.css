@@ -85,7 +85,7 @@ input{
 .navBar{
     height: 20%;
     width:100%;
-    background-color: rgb(178, 111, 34);
+    background-color: rgb(248, 252, 6);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -99,21 +99,22 @@ input{
 }
 .minimize{
 
-    background-color: rgb(48, 211, 48);
+    background-color: rgb(142, 230, 27);
 }
 .close{
     background-color:firebrick;
+    /* background-image: url("./NewIcons/"); */
 }
 
 
 .writingPad{
     height: 80%;
     width:100%;
-    background-color: goldenrod;
+    background-color: rgb(247, 247, 139);
 }
 .textArea{
     width:99%;
     height:99%;
-    
+    font-family: sans-serif;
     background-color: inherit;
 }

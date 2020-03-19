@@ -17,8 +17,8 @@ function createSticky() {
     // add to canvas 
     stickyPad.appendChild(navBar);
     stickyPad.appendChild(writingPad);
-    navBar.appendChild(close);
     navBar.appendChild(minimize);
+    navBar.appendChild(close);
     writingPad.appendChild(textArea);
     const body = document.querySelector("body");
     body.appendChild(stickyPad);
