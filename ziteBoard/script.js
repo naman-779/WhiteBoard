@@ -1,5 +1,4 @@
-
-const socket = io.connect("https://white-board-by-naman.herokuapp.com/");
+const socket = io.connect("http://127.0.0.1:5500/lecture-19/ziteBoard/index.html");
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
 board.width = window.innerWidth;
@@ -15,6 +14,14 @@ input.addEventListener("change", function () {
 let Activetool = "pencil";
 const pencilOptions = document.querySelector(".pencil");
 const eraserOptions = document.querySelector(".eraser");
+
+const eraseAll = document.querySelector(".clear-all");
+eraseAll.addEventListener("click", function(){
+    ctx.clearRect(0, 0, board.width, board.height);
+})
+// function clearEverything(){
+//     board.classList.remove("show")
+// }
 
 function handleToolChange(tool) {
     if (tool == "pencil") {

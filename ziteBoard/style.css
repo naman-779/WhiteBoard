@@ -16,10 +16,43 @@
 .tool-options{
     display: none;
     height:8rem;
-width:12rem;
-background-color: darkblue;
+    width:12rem;
+    /* padding-top: 1rem; */
+    margin-top: 6px;;
+    background-color: rgb(235, 235, 243);
+    border-radius: 2rem;
 }
+.eraser{
+    height:5rem;
+    padding-top: 1rem; 
+    background-color: rgb(43, 6, 253);
+    /* display: inline-flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tool-options:hover{
+    cursor: pointer;
+}
+.clear-all{
+    background-color: rgb(214, 213, 213);
+    margin-top: 1.2rem;
+    height: 30%;
+    padding-bottom: 11.5px; 
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear-all:hover{
+    background-color: rgb(136, 138, 138);
+}
+.rangeMover:hover{
+    cursor: col-resize;
+}
+
 .pencil-size{
+    border-radius: 2rem;
     height: 50%;
     background-color: green;
     display: flex;
