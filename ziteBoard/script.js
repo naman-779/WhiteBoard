@@ -1,4 +1,4 @@
-const socket = io.connect("http://127.0.0.1:5500/lecture-19/ziteBoard/index.html");
+const socket = io.connect("https://white-board-by-naman.herokuapp.com/");
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
 board.width = window.innerWidth;

@@ -13,6 +13,13 @@
     background-color: rgb(234, 240, 234);
 }
 
+.hidden{
+    display: none;
+}
+.tool:hover{
+    cursor: pointer;
+}
+
 .tool-options{
     display: none;
     height:8rem;
