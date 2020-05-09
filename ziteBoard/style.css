@@ -11,18 +11,25 @@
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    background-color: rgb(234, 240, 234);
+    background-color: white;
     border-radius: 20px;
     max-width: 65%;
     height: 6rem;
     margin-left: 12.5rem;
-}
+    box-shadow:0 1rem 3rem rgba(22, 4, 4, 0.375)!important;
+    transition-duration:0.3s;
 
+}
+.toolBar:hover{
+    transform: scale(1.02);
+}
 .hidden{
     display: none;
 }
 .tool:hover{
     cursor: pointer;
+    transform: scale(1.10);
+
 }
 
 .tool-options{
@@ -95,7 +102,7 @@ input{
     background-color: red;
 }
 .green{
-    background-color: green;
+    background-color: black;
 }
 .blue{
     background-color: blue;
